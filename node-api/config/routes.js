@@ -7,7 +7,8 @@
  * For more information on configuring custom routes, check out:
  * https://sailsjs.com/anatomy/config/routes-js
  */
-
 module.exports.routes = {
-  'GET /health': { action: 'health/check' }
+  'GET /health': 'HealthController.check',
+  'GET /time': 'TimeController.now',
+  'GET /user/findByEmail': 'UserController.findByEmail'
 };
