@@ -30,7 +30,7 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
-            -Dsonar.projectKey=anonorg_anonproj
-            -Dsonar.organization=anonorg
+            -Dsonar.projectKey=Prac-api-migration
+            -Dsonar.organization=sasikanthbdevvv-a11y
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
