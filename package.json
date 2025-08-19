@@ -4,7 +4,8 @@
   "description": "![build](https://github.com/sasikanthbdevvv-a11y/Prac-api-migration/actions/workflows/ci.yml/badge.svg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest node-api/test",
+    "lint": "eslint node-api/api/ node-api/config/"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/sasikanthbdevvv-a11y/Prac-api-migration/issues"
   },
-  "homepage": "https://github.com/sasikanthbdevvv-a11y/Prac-api-migration#readme"
+  "homepage": "https://github.com/sasikanthbdevvv-a11y/Prac-api-migration#readme",
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "eslint-plugin-n": "^17.21.3",
+    "jest": "^30.0.5"
+  }
 }
