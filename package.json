@@ -4,8 +4,8 @@
   "description": "![build](https://github.com/sasikanthbdevvv-a11y/Prac-api-migration/actions/workflows/ci.yml/badge.svg)",
   "main": "index.js",
   "scripts": {
-    "test": "jest node-api/test",
-    "lint": "eslint node-api/api/ node-api/config/"
+    "test": "jest test",
+    "lint": "eslint api/ config/"
   },
   "repository": {
     "type": "git",
