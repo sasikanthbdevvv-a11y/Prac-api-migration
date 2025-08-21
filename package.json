@@ -4,7 +4,7 @@
   "description": "![build](https://github.com/sasikanthbdevvv-a11y/Prac-api-migration/actions/workflows/ci.yml/badge.svg)",
   "main": "index.js",
   "scripts": {
-    "test": "jest test",
+    "test": "jest --coverage",
     "lint": "eslint api/ config/"
   },
   "repository": {
@@ -21,6 +21,10 @@
   "devDependencies": {
     "eslint": "^9.33.0",
     "eslint-plugin-n": "^17.21.3",
-    "jest": "^30.0.5"
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4"
+  },
+  "dependencies": {
+    "sails": "^1.5.15"
   }
 }

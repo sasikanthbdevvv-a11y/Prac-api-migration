@@ -1,5 +1,6 @@
 module.exports = {
   check: function (req, res) {
-    res.send("ok");
+    console.log("🔥 HealthController.check was called");
+    return res.json({ status: "ok" });
   },
 };
